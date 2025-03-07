@@ -88,15 +88,6 @@ defmodule BraveEx do
             - Default:  No default
             - Required: false
         
-        
-    
-   
-
-  ## Examples
-
-      iex> BraveEx.web_search("")
-      :world
-
   """
 
   def web_search(query, opts \\ []) do
