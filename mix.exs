@@ -4,7 +4,7 @@ defmodule BraveEx.MixProject do
   def project do
     [
       app: :brave_ex,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       description: "Programatically search Brave using Elixir",
@@ -28,7 +28,7 @@ defmodule BraveEx.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:req, "~> 0.5.8"},
+      {:req, "~> 0.5 or ~> 0.6 or ~> 0.7"},
       {:ex_doc, "~> 0.37.2", only: :dev, runtime: false}
 
     ]
