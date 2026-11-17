@@ -12,12 +12,12 @@
 
 ## Installation
 
-Add `brave_ex` to your list of dependencies in `mix.exs`:
+BraveEx 0.1.2 requires Elixir ~> 1.15. Add `brave_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:brave_ex, "~> 0.1.0"}
+    {:brave_ex, "~> 0.1.2"}
   ]
 end
 ```

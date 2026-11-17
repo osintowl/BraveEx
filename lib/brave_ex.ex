@@ -4,7 +4,7 @@ defmodule BraveEx do
   """
   @base_url "https://api.search.brave.com/res/v1"
   @default_timeout 10_000
-  @user_agent "BraveEx/0.1 (Elixir; +https://github.com/osintowl/BraveEx) Mozilla/5.0 (compatible; BraveEx/0.1)"
+  @user_agent "BraveEx/0.1.2 (Elixir; +https://github.com/osintowl/BraveEx) Mozilla/5.0 (compatible; BraveEx/0.1.2)"
 
   @doc """
   Does a Web search as default with Brave api search.
